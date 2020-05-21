@@ -88,8 +88,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_ROOT_EXTRA_FOLDERS := persist firmware metadata
 
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/wahoo/sepolicy/vendor
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR := device/google/wahoo/sepolicy/public
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR := device/google/wahoo/sepolicy/private
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := device/google/wahoo/sepolicy/public
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := device/google/wahoo/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/wahoo/sepolicy/verizon
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/citadel
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
