@@ -14,6 +14,13 @@
 # limitations under the License.
 #
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# Disable APEX compression
+# Keep this after including updatable_apex.mk
+PRODUCT_COMPRESSED_APEX := false
+
 ifneq (,$(filter 27, $(PRODUCT_EXTRA_VNDK_VERSIONS)))
     _vndk_test := true
 endif
@@ -816,7 +823,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     ElmyraService
 
->>>>>>> 81926d95 (wahoo: Build Active Edge service (ElmyraService))
 include hardware/google/pixel/vibrator/drv2624/device.mk
 include hardware/google/pixel/mm/device_legacy.mk
 include hardware/google/pixel/thermal/device.mk
