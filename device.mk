@@ -36,6 +36,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/camera \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/google/interfaces \
     hardware/qcom/msm8998
 
 PRODUCT_COPY_FILES += \
