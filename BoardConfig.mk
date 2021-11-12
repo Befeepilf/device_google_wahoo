@@ -88,6 +88,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += device/google/wahoo/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR := device/google/wahoo/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR := device/google/wahoo/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/wahoo/sepolicy/verizon
+BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/citadel
+BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 
 TARGET_FS_CONFIG_GEN := device/google/wahoo/config.fs
 
