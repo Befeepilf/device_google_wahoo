@@ -211,8 +211,6 @@ $(call add-clean-step, rm -rf $(PRODUCT_OUT)/recovery/root/system/lib64/hw/andro
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/etc/init/android.hardware.vibrator@1.2-service.wahoo.rc)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/bin/hw/android.hardware.vibrator@1.2-service.wahoo)
 
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib/libgptutils.so)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib64/libigptutils.so)
-
 # Use stable aidl power HAL
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/etc/init/android.hardware.power-service.pixel-libperfmgr.rc)
+
