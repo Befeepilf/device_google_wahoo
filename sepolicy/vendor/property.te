@@ -29,5 +29,4 @@ type vendor_wifi_sniffer_prop, property_type;
 type vendor_fingerprint_prop, property_type;
 
 type exported_wifi_prop, property_type;
-type vendor_power_prop, property_type;
 type exported2_system_prop, property_type;
